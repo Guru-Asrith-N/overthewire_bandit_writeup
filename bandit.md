@@ -24,3 +24,21 @@ finally entered cat ./-
 ```
 
 #### level 2 -> level 3
+
+```
+if space is there in between filename then linux considers it as 2 seperate files rather than a single one
+we can place a filename with spaces in double quotes
+finally entered cat "spaces in this filename"
+```
+
+#### level 3 -> level 4
+
+```
+since file is hidden read about find command
+entered find inhere
+then finally entered cat inhere/.hidden
+```
+
+#### level 4 -> level 5 
+
+```
