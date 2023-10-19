@@ -7,3 +7,5 @@
 ### level 5 -> level 6
 
 
+![finding a file of particular size in linux](https://github.com/Guru-Asrith-N/overthewire_bandit_writeup/assets/147991595/e22e7873-7947-43fa-89b0-6257d934b759)
+
