@@ -124,3 +124,11 @@ password 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
 
 #### level 11 -> level 12
 
+referred the manual for tr 
+used the link 'ROT13 on wikipedia' given in level
+enterred `cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'`
+```
+password JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
+```
+
+#### level 12 -> level 13
