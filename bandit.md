@@ -85,3 +85,42 @@ password TESKZC0XvTetK0S9xNwm25STk5iWrBvP
 ```
 
 #### level 8 -> level 9
+
+tried `uniq data.txt`
+tried `uniq -u data.txt`
+tried `uniq -u 1 data.txt`
+
+went through piping and redirection
+ tried `uniq data.txt > data` to create a new file and read it 
+ tried `uniq data.txt >> data`
+ tried `cat data.txt | uniq`
+ tried `cat data.txt | sort`
+
+ finally did `cat data.txt | sort | uniq` and got the password
+```
+password EN632PlfYiZbn3PhVK3XOGSlNInNE00t
+```
+
+#### level 9 -> level 10
+
+tried `sort -i data.txt`
+tried `sort -i data.txt | cat`
+tried `sort -d data.txt | cat`
+tried `sort -h data.txt | cat`
+tried `cat data.txt | grep '=' | sort -i`
+tried `cat data.txt | grep '=' | sort -i | cat`
+tried `man strings` it didn't show anything so tried searching it in google 
+finally entered `strings data.txt`
+```
+password G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
+```
+
+#### level 10 -> level 11
+
+used `base64 -d data.txt`
+```
+password 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
+```
+
+#### level 11 -> level 12
+
