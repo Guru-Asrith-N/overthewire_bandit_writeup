@@ -66,3 +66,22 @@ changed filename and made it not exectuble
 ```
 password P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
 ```
+
+#### level 6 -> level 7 
+
+went to `find` manual and searched for how to find username and group name 
+in the code found one line which didn't have access denied
+used `cat` command for that one line
+```
+password z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+```
+
+#### level 7 -> level 8
+
+read the manual of all the commands given for solving level 7 -> level 8 
+`grep` is the command needed to find a word in a file
+```
+password TESKZC0XvTetK0S9xNwm25STk5iWrBvP
+```
+
+#### level 8 -> level 9
