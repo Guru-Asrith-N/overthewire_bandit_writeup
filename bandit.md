@@ -132,3 +132,7 @@ password JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
 ```
 
 #### level 12 -> level 13
+
+made directory using `mkdir /tmp/myname12345`
+tried using `zcat data.txt | xxd | cp /tmp/myname12345`
+tried using `zcat data.txt | xxd | cat /tmp/myname12345`
