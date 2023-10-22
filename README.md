@@ -12,3 +12,7 @@
 ### level 11 -> level 12
 
 ![ROT13 cipher](https://github.com/Guru-Asrith-N/overthewire_bandit_writeup/assets/147991595/2007d0f5-e9cd-4f9f-bcbf-dea9bedbfc1b)
+
+### level 12 -> level 13
+
+![extraction of tar compressed files](https://github.com/Guru-Asrith-N/overthewire_bandit_writeup/assets/147991595/a54d328c-4da2-44e0-9092-cff9bd547cd1)
