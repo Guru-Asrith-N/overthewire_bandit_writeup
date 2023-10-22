@@ -136,3 +136,46 @@ password JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
 made directory using `mkdir /tmp/myname12345`
 tried using `zcat data.txt | xxd | cp /tmp/myname12345`
 tried using `zcat data.txt | xxd | cat /tmp/myname12345`
+tried using `xxd -d data.txt`
+tried using `xxd -d data.txt | cat /tmp/myname12345`
+
+finally realized you are supposed to use `xxd -r` in a new directory
+
+made new directory using `mkdir /tmp/myname123456`
+copied text to new directory using `cp data.txt /tmp/myname123456/name` and stored in a file named 'name'
+since password is in a hex dump file used `xxd -r name | cat > name1` and saved data  in file named 'name1'
+used `file` command to detemine compression type `file name1` . It is a gzip compression
+tried using `gzip -d name1`  didn't work 
+used `mv` command to change file extension `mv name1 name2.gz`
+used `gzip -d name2.gz | cat > name2`
+used `file` command to detemine compression type `file name2` . It is a bzip2 compression
+used `mv` command to change extension `mv name2 name3.bz`
+used `bzip2 -d name3.bz | cat > name3` and saved data in file named 'name3'
+used `file` command to detemine compression type `file name3` . It is a gzip compression
+used `mv` command to change file extension `mv name3 name4.gz`
+used `gzip -d name4.gz | cat > name4`
+used `file` command to detemine compression type `file name4` . It is a tar compression
+searched in google to find how to extract tar files
+used `mv` command to change file extension `mv name4 name5.tar`
+used `tar xvf name5.tar` . Recieved output as data5.bin
+searched google for how to extract '.bin' files
+tried using `chmod` and `sudo` command. Didn't work
+tried using `file` command `file data5.bin` file is a tar compressed file
+used `mv` command to change file extension `mv data5.bin name6.tar`
+used `tar xvf name6.tar` . Recieved output as data6.bin
+tried using `file` command `file data6.bin` file is a bzip2 compressed file
+used `mv` command to change file extension `mv data6.bin name6.bz`
+used `bzip2 -d name6.bz ` 
+used `file name6` . It is a tar compressed file
+used `mv` command to change file extension `mv name6 data6.tar`
+used `tar xvf data6.tar` . Recieved output as data8.bin
+used `file data8.bin`. It is a gzip compressed file
+used `mv` command to change file extension `mv data8.bin data9.gz`
+used `gzip -d data9.gz`. recieved output as 'data9'
+used `file  data9` . It is a ASCII texted file
+used `cat data9`. Got password
+```
+password wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
+```
+
+#### level 13 -> level 14
