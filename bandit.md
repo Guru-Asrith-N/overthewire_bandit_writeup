@@ -193,6 +193,6 @@ entered `ssh bandit14@localhost -i sshkey.private -p 2220` entered the localhost
 since they said password is in '/etc/bandit_pass/bandit14' . tried using `cat` command . Found the password
 exit all servers 
 ```
-password fGrHPx402xGC7U7rXKDaxiWFTOif0ENq
+password fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
 ```
 
