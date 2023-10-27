@@ -231,3 +231,37 @@ password JQttfApK4SeyHwDlI9SXGR50qclOAil1
 ```
 
 #### level 16 -> level 17
+
+used `nmap -p 31000:32000`
+used `nmap -p 31000-32000`
+used `nmap -p T:31000-32000`
+used `nmap -sV -p 31000-32000`
+used `nmap --p 31000-32000 -sV`
+
+finally realised that target is localhost
+
+used `nmap -p 31000-32000 localhost`
+got 5 open servers
+used `openssl s_client -connect localhost:<portnumber>` for each port individually 
+the port is 31790 and it gives a private RSA key
+
+used `mkdir /tmp/RSA`
+entered file using `cd /tmp/RSA`
+used `cat > 2.key`
+copied RSA key and pasted inside 2.key
+used `ssh -i 2.key bandit17@localhost` . Didn't work
+used `ssh -i 2.key bandit17@localhost -p 31790` . Didn't work
+used `chmod 2.key` . Didn't work
+used `chmod 600 2.key` 
+used `ssh -i 2.key bandit17@localhost -p 2220`
+
+used `cat passwords.new`
+used `cat passwords.old`
+tried `sort`, `uniq`, etc
+finally used `cat /etc/bandit_pass/bandit17`
+```
+password VwOSWtCA7lRKkTfbr2IDh6awj9RNZM5e
+```
+
+#### level 17 -> level 18
+
