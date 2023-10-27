@@ -16,3 +16,8 @@
 ### level 12 -> level 13
 
 ![extraction of tar compressed files](https://github.com/Guru-Asrith-N/overthewire_bandit_writeup/assets/147991595/a54d328c-4da2-44e0-9092-cff9bd547cd1)
+
+### level 14 -> level 15
+
+![establishing connections using nc command](https://github.com/Guru-Asrith-N/overthewire_bandit_writeup/assets/147991595/5a843afd-b39c-4939-a577-3d30035bacd7)
+
