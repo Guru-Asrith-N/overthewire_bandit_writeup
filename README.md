@@ -21,3 +21,7 @@
 
 ![establishing connections using nc command](https://github.com/Guru-Asrith-N/overthewire_bandit_writeup/assets/147991595/5a843afd-b39c-4939-a577-3d30035bacd7)
 
+### level 15 -> level 16
+
+![ssl encoded](https://github.com/Guru-Asrith-N/overthewire_bandit_writeup/assets/147991595/50dcfadb-0478-4acc-9948-24512f957961)
+
