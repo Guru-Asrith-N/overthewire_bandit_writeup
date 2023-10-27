@@ -218,3 +218,15 @@ password jN2kgmIXJ6fShzhT2avhotn4zcka6tnt
 
 #### level 15 -> level 16
 
+used `nc -v localhost 30001`
+used `nc -v localhost 30001 -d ssl`
+used `nc -d ssl -v localhost 30001`
+nothing worked
+
+tried searching in google for something related to openssl as it is ssl encrypted
+found a blog pertaining to the problem
+```
+password JQttfApK4SeyHwDlI9SXGR50qclOAil1
+```
+
+#### level 16 -> level 17
