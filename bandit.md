@@ -225,6 +225,7 @@ nothing worked
 
 tried searching in google for something related to openssl as it is ssl encrypted
 found a blog pertaining to the problem
+used `openssl s_client -connect localhost:30001`
 ```
 password JQttfApK4SeyHwDlI9SXGR50qclOAil1
 ```
