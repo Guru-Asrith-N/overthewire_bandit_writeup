@@ -196,3 +196,24 @@ exit all servers
 password fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
 ```
 
+#### level 14 -> level 15
+
+entered level 
+read all helpful materials and commands
+tried using `ls` and `ls -a`
+used `ssh bandit14@localhost -p 30000` to enter server. Didn't work
+used `s_client` command to see if connection is opened
+used `s_client` command and other commands to see if it is possible to enter the localhost server
+used `openssl s_client -connect localhost:30000` 
+read all helpful materials again 
+finally searched in google . Didn't get it 
+read the question and saw that the password of the current level is to be submitted at localhost in port 30000
+got the password of current level
+searched for all commands again
+while searching in nc command found a webpage 
+entered `nc -v localhost 30000` and password of current level in next line
+```
+password jN2kgmIXJ6fShzhT2avhotn4zcka6tnt
+```
+
+#### level 15 -> level 16
