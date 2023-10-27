@@ -265,3 +265,12 @@ password VwOSWtCA7lRKkTfbr2IDh6awj9RNZM5e
 
 #### level 17 -> level 18
 
+used `man diff`
+tried `diff -q passwords.new passwords.old`
+tried `diff passwords.new passwords.old`
+```
+password hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
+```
+
+#### level 18 -> level 19
+
