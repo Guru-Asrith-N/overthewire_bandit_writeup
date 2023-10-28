@@ -8,8 +8,8 @@ did not enter -p for port
 
 #### level 0 -> level 1
 
-entered readme first
-after going through commands entered cat readme
+entered `readme` first
+after going through commands entered `cat readme`
 looked up in google for how to exit a server
 ```
 password NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
