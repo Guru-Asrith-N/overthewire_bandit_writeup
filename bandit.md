@@ -289,8 +289,34 @@ entered the server
 used `ls`
 used `cat readme`
 ```
-password awhqfNnAbclnaukrpqDYcF95h7HoMTrc
+password awhqfNnAbclnaukrpqDYcF95h7HoMTrC
 ```
 
 #### level 19 -> level 20
+
+read all helpful materials
+used `ls`
+used `cat bandit20-do`
+used `file bandit-do`
+
+searched in google 
+
+used `ls -l`
+login should be done as user bandit20
+
+used `su`, `sudo`, `runuser` none of them worked
+
+searched in google 
+
+used `./bandit20`
+used `./bandit20-do`
+used `./bandit20-do cat /etc/bandit_pass`
+used `./bandit20-do cd /etc/bandit_pass`
+
+used `./bandit20-do cat /etc/bandit_pass/bandit20`
+```
+password VxCazJaVykI6W36BkBU0mJTCM8rR95XT
+```
+
+#### level 20 -> level 21
 
