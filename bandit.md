@@ -320,3 +320,50 @@ password VxCazJaVykI6W36BkBU0mJTCM8rR95XT
 
 #### level 20 -> level 21
 
+used `ls`
+used `cat suconnect`
+used `file suconnect`
+used `ls -l`
+used `./suconnect ls` . Didn't work
+
+searched in google. found a link regarding `nc` and how it listens 
+
+https://www.geeksforgeeks.org/practical-uses-of-ncnetcat-command-in-linux/
+
+used another terminal 
+used `nc -lp 100` in terminal 2 . Didn't work
+read in the link again
+used `nc -lvp 100` in terminal 2
+
+came to terminal 1
+used `./suconnect nc -lp 100`
+used `./suconnect nc -p 100`. Didn't work 
+used `./suconnect` . Showed how suconnect is used
+used `./suconnect 100` . Didn't work
+
+realised that both terminals should be in same server for it to connect. Changed server of terminal 2 to bandit20
+
+connection was established
+
+entered password of level 20 in terminal 2
+password of level 21 was sent to terminal 2
+```
+password NvEJF7oVjkddltPSrdKEFOllh9V1IVcq
+```
+
+#### level 21 -> level 22
+
+used `ls`
+used `cron`
+mentioned in the question to look into /etc/cron.d/
+used `cat /etc/cron.d` . It is a directory
+used cd `/etc/cron.d`
+used `ls`
+searched in cronjob_bandit22 as it is most likely to have password
+used `cat cronjob_bandit22` . 
+searched in google
+found repeating file was given '/usr/bin/cronjob_bandit22'
+used `cat /usr/bin/cronjob_bandit22 `
+```
+password WdDozAdTM2z9DiFEQ2mGlwngMfj4E2ff
+```
