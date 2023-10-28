@@ -25,3 +25,7 @@
 
 ![ssl encoded](https://github.com/Guru-Asrith-N/overthewire_bandit_writeup/assets/147991595/50dcfadb-0478-4acc-9948-24512f957961)
 
+### level 18 -> level 19
+
+![using extra commands when  basrc is set to log you out](https://github.com/Guru-Asrith-N/overthewire_bandit_writeup/assets/147991595/0ed9537e-db2b-4019-9d80-406317aebd8c)
+
