@@ -274,3 +274,23 @@ password hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
 
 #### level 18 -> level 19
 
+used `ssh bandit18@bandit.labs.overthewire.org -p 2220`
+used `ssh -4 bandit18@bandit.labs.overthewire.org -p 2220`
+used `ssh -6 bandit18@bandit.labs.overthewire.org -p 2220`
+used `ssh -t bandit18@bandit.labs.overthewire.org -p 2220`
+used `ssh -f bandit18@bandit.labs.overthewire.org -p 2220`
+used `ssh -k bandit18@bandit.labs.overthewire.org -p 2220`
+searched in google 
+found a blog regarding problem
+tried used `ssh -t bandit18@bandit.labs.overthewire.org /bin/sh`
+tried used `ssh -t bandit18@bandit.labs.overthewire.org /bin/sh -p 2220`
+used `ssh -t bandit18@bandit.labs.overthewire.org -p 2220 /bin/sh`
+entered the server 
+used `ls`
+used `cat readme`
+```
+password awhqfNnAbclnaukrpqDYcF95h7HoMTrc
+```
+
+#### level 19 -> level 20
+
