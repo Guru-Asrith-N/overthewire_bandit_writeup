@@ -29,3 +29,5 @@
 
 ![using extra commands when  basrc is set to log you out](https://github.com/Guru-Asrith-N/overthewire_bandit_writeup/assets/147991595/0ed9537e-db2b-4019-9d80-406317aebd8c)
 
+![using extra commands when  bashrc is set to log you out CONT](https://github.com/Guru-Asrith-N/overthewire_bandit_writeup/assets/147991595/a070f44b-ab31-4b35-8783-a90125f8e179)
+
